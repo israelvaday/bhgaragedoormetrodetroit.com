@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /thank-you
+
+Host: https://bhgaragedoormetrodetroit.com
+Sitemap: https://bhgaragedoormetrodetroit.com/sitemap.xml
