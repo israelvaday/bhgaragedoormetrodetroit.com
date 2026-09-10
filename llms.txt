@@ -29,26 +29,26 @@ BH Garage Door Metro Detroit is a licensed and insured garage door company headq
 ## Site Map
 
 - Home: https://bhgaragedoormetrodetroit.com/
-- All services: https://bhgaragedoormetrodetroit.com/services
-- Emergency repair: https://bhgaragedoormetrodetroit.com/services/emergency
-- Garage door repair: https://bhgaragedoormetrodetroit.com/services/repair
-- New installation: https://bhgaragedoormetrodetroit.com/services/installation
-- Spring replacement: https://bhgaragedoormetrodetroit.com/services/springs
-- Openers: https://bhgaragedoormetrodetroit.com/services/openers
-- Cables & rollers: https://bhgaragedoormetrodetroit.com/services/cables-rollers
-- Panel replacement: https://bhgaragedoormetrodetroit.com/services/panels
-- Commercial doors: https://bhgaragedoormetrodetroit.com/services/commercial
-- Maintenance: https://bhgaragedoormetrodetroit.com/services/maintenance
-- Smart openers: https://bhgaragedoormetrodetroit.com/services/smart-openers
-- Service areas: https://bhgaragedoormetrodetroit.com/service-areas
-- About: https://bhgaragedoormetrodetroit.com/about
-- License: https://bhgaragedoormetrodetroit.com/license
-- Hours: https://bhgaragedoormetrodetroit.com/hours
-- Contact: https://bhgaragedoormetrodetroit.com/contact
-- Free quote: https://bhgaragedoormetrodetroit.com/quote
-- Gallery: https://bhgaragedoormetrodetroit.com/gallery
-- Blog: https://bhgaragedoormetrodetroit.com/blog
-- FAQ: https://bhgaragedoormetrodetroit.com/faq
+- All services: https://bhgaragedoormetrodetroit.com/services/
+- Emergency repair: https://bhgaragedoormetrodetroit.com/services/emergency/
+- Garage door repair: https://bhgaragedoormetrodetroit.com/services/repair/
+- New installation: https://bhgaragedoormetrodetroit.com/services/installation/
+- Spring replacement: https://bhgaragedoormetrodetroit.com/services/springs/
+- Openers: https://bhgaragedoormetrodetroit.com/services/openers/
+- Cables & rollers: https://bhgaragedoormetrodetroit.com/services/cables-rollers/
+- Panel replacement: https://bhgaragedoormetrodetroit.com/services/panels/
+- Commercial doors: https://bhgaragedoormetrodetroit.com/services/commercial/
+- Maintenance: https://bhgaragedoormetrodetroit.com/services/maintenance/
+- Smart openers: https://bhgaragedoormetrodetroit.com/services/smart-openers/
+- Service areas: https://bhgaragedoormetrodetroit.com/service-areas/
+- About: https://bhgaragedoormetrodetroit.com/about/
+- License: https://bhgaragedoormetrodetroit.com/license/
+- Hours: https://bhgaragedoormetrodetroit.com/hours/
+- Contact: https://bhgaragedoormetrodetroit.com/contact/
+- Free quote: https://bhgaragedoormetrodetroit.com/quote/
+- Gallery: https://bhgaragedoormetrodetroit.com/gallery/
+- Blog: https://bhgaragedoormetrodetroit.com/blog/
+- FAQ: https://bhgaragedoormetrodetroit.com/faq/
 
 ## Usage
 
