@@ -1,4 +1,4 @@
-/* local-corner.js for bh-garage-door, built 2026-10-01 by gotham-ops/local-corner/build.mjs. Do not hand-edit. */
+/* local-corner.js for bh-garage-door, built 2026-10-02 by gotham-ops/local-corner/build.mjs. Do not hand-edit. */
 (function () {
   var CONFIG = {"id":"local-corner","mode":"inject","tz":"America/Detroit","weather":{"url":"https://api.weather.gov/gridpoints/DTX/66,34/forecast/hourly","rule":"garage-cold","tz":"America/Detroit","place":"Detroit","lat":42.3314,"lon":-83.0458},"insert":{"before":"main > section.py-16:not(.border-t) + section.border-t.py-16"},"html":"<section id=\"local-corner\" class=\"border-t border-ink-800 py-16\" aria-labelledby=\"local-corner-title\"><style>#local-corner{font-family:var(--font-inter),system-ui,sans-serif}#local-corner .lc-wrap{box-sizing:border-box;min-width:0}#local-corner h3{font-family:var(--font-jakarta),var(--font-inter),system-ui,sans-serif;font-weight:700;font-size:1.125rem;line-height:1.4;color:#fff;margin:2.25rem 0 .9rem}#local-corner ul{list-style:none;margin:0;padding:0;display:grid;gap:.75rem}#local-corner li{border:1px solid rgb(19 23 28);background:rgb(11 14 18/.4);border-radius:1rem;padding:1rem 1.15rem;line-height:1.6;overflow-wrap:break-word;color:rgb(194 199 205)}#local-corner li strong{color:rgb(229 231 234);font-weight:600}#local-corner li.lc-now{border-color:rgb(184 134 43/.5);border-left:3px solid rgb(201 150 46);background:rgb(184 134 43/.08)}#local-corner a{color:rgb(217 174 74);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}#local-corner a:hover{color:rgb(232 203 126)}#local-corner .lc-cite{display:block;margin-top:.35rem;font-size:.8125rem;color:rgb(144 152 162)}#local-corner .lc-weather{margin-top:1.5rem;border:1px solid rgb(26 31 37);border-radius:1rem;padding:1rem 1.15rem;background:rgb(11 14 18/.6);overflow-wrap:break-word;color:rgb(194 199 205)}#local-corner .lc-weather p{margin:0;line-height:1.6}#local-corner .lc-live{border-left:3px solid rgb(144 152 162);padding-left:.75rem}#local-corner .lc-live strong{color:#fff}#local-corner .lc-good{border-left-color:rgb(110 231 183)}#local-corner .lc-caution{border-left-color:rgb(252 211 77)}#local-corner .lc-poor{border-left-color:rgb(252 165 165)}#local-corner .lc-weather .lc-src{margin-top:.5rem;font-size:.8125rem;color:rgb(144 152 162)}#local-corner .lc-cta{margin-top:2rem;line-height:1.6;color:rgb(229 231 234)}@media (min-width:768px){#local-corner h3{font-size:1.25rem}#local-corner{font-size:1rem}}</style><div class=\"lc-wrap mx-auto max-w-3xl px-4 md:px-6\"><p class=\"text-sm font-semibold uppercase tracking-wider text-brass-400\">Seasonal care</p><h2 id=\"local-corner-title\" class=\"mt-2 font-display text-3xl font-bold tracking-tight md:text-4xl\">Garage door care through a Metro Detroit year</h2><p class=\"mt-3 text-ink-300\">Detroit weather is hard on garage doors, so here is what each season asks of yours.</p><div class=\"lc-weather\" data-lc-weather><p>Before a cold snap, make sure your door closes fully and the bottom seal is not frozen to the slab.</p></div><h3>Through the year in Metro Detroit</h3><ul><li data-lc-months=\"10,11\"><strong>Fall, before the freeze:</strong> Detroit's median first freeze falls on October 27, so fall is the time for a <a href=\"/services/maintenance/\">garage door tune-up</a>, before the cold thickens grease and stiffens seals.</li><li data-lc-months=\"12,1,2,3\"><strong>Deep winter:</strong> Detroit averages over 75 freezing nights from December to February. If a spring snaps in the cold, stop using the door and ask about <a href=\"/services/springs/\">garage door spring replacement</a>.</li><li data-lc-months=\"4,5\"><strong>Spring thaw:</strong> After the median last freeze around April 20, rinse road salt off the tracks and check the lift cables. Rusty or frayed cables can drop a door without warning and call for <a href=\"/services/cables-rollers/\">cable, roller and track repair</a>.</li><li data-lc-months=\"6,7,8,9\"><strong>Summer:</strong> Detroit averages no freezing nights from June to August, which makes summer a comfortable time to plan a <a href=\"/services/installation/\">new garage door installation</a>.</li></ul><h3>Good to know locally</h3><ul><li>Michigan's environment department notes that road salt corrodes vehicles and structures. Salty slush that drips off your car collects along the bottom seal, so a cracked seal or rusted retainer is routine <a href=\"/services/repair/\">garage door repair</a>. <span class=\"lc-cite\">Source: <a href=\"https://www.michigan.gov/-/media/Project/Websites/egle/Documents/Programs/WRD/Storm-Water-Municipal/winter-road-maintenance.pdf?rev=cd1b6f1e2de646449a871f45f2f1fcfe\" rel=\"noopener\" target=\"_blank\">Winter Road Maintenance (Michigan EGLE, Rev. 6/2025)</a></span></li><li>The City of Inkster's storm tips advise learning how to open an automated garage door by hand before the power goes out. Ask about a battery backup, one of the options in <a href=\"/services/openers/\">garage door opener installation and repair</a>, so the opener can still run during an outage. <span class=\"lc-cite\">Source: <a href=\"https://cityofinkstermi.gov/606/Storm-Tips\" rel=\"noopener\" target=\"_blank\">Storm Tips | Inkster, MI</a></span></li></ul><p class=\"lc-cta\">Michigan winter on the way? Book a <a href=\"/services/maintenance/\">garage door tune-up and maintenance</a> visit before the first freeze.</p></div></section>"};
 /*
@@ -205,12 +205,12 @@
           level: "good",
           text: "Good window for exterior painting " + dayWord(best[0].t) + " from " + hourLabel(best[0].t) + " to " +
             hourLabel(new Date(Date.parse(best[best.length - 1].t) + 3600000).toISOString()) +
-            " (" + minOf(best, "f") + " to " + maxOf(best, "f") + "°F, low rain chance). Most exterior latex paints need 50°F and up while they dry."
+            " (" + minOf(best, "f") + " to " + maxOf(best, "f") + "°F, low rain chance). Many exterior latex paints need 50°F and up while they dry; check the label, some are rated lower."
         };
       }
       var days = next.filter(function (h) { return h.day; });
       var hi = maxOf(days.length ? days : next, "f");
-      if (hi != null && hi < 50) return { level: "poor", text: "Too cold for most exterior paints today (high near " + hi + "°F). Interior work is the better plan; most exterior latex paints need 50°F and up while they dry." };
+      if (hi != null && hi < 50) return { level: "poor", text: "Too cold for most exterior paints today (high near " + hi + "°F). Interior work is the better plan; many exterior latex paints need 50°F and up while they dry." };
       var dpop = maxOf(days.length ? days : next, "pop");
       if (dpop >= 30) return { level: "poor", text: rainWords(dpop) + " in the daytime hours, so exterior paint may not have time to set. A good day for interior rooms instead." };
       return { level: "caution", text: "Conditions are borderline for exterior paint today (dew or short dry spells). Interior work is the safer choice." };
@@ -232,7 +232,7 @@
       if (low == null) return null;
       if (low <= 32 && frozenPrecip(next)) return { level: "poor", text: "Freezing temperatures with precipitation in the next 24 hours (low near " + low + "°F). Locks and car doors can ice up: use a lock de-icer and never pour hot water into a lock, it refreezes deeper." };
       if (low <= 32) return { level: "caution", text: "Below freezing in the next 24 hours (low near " + low + "°F). A frozen lock needs de-icer and patience, not force; forcing a key is how keys snap." };
-      return { level: "good", text: "No freeze in the next 24 hours (low near " + low + "°F). If a key feels stiff, a little graphite lubricant keeps a lock working through the winter; skip oil, it collects grit." };
+      return { level: "good", text: "No freeze in the next 24 hours (low near " + low + "°F). If a key feels stiff, a dry lubricant such as graphite keeps a lock turning through the winter; oil-based sprays attract grit." };
     },
 
     // Flooring: wood moves with humidity, vinyl plank far less so.
@@ -249,9 +249,11 @@
       var next = hs.slice(0, 12);
       var rh = avgOf(next, "rh");
       var t = avgOf(next, "f");
-      if (rh == null || t == null) return null;
-      if (rh >= 70 || t < 55) return { level: "caution", text: "Slow drying conditions today (" + t + "°F, humidity around " + rh + "%). Allow extra time between coats of joint compound, or use a setting-type compound that cures chemically." };
-      return { level: "good", text: "Good drying conditions today (" + t + "°F, humidity around " + rh + "%). Standard joint compound usually dries between coats in about a day indoors." };
+      if (rh == null) return null;
+      var cold = t != null && t < 50 ? " In unheated spaces such as garages, the cold slows drying further." : "";
+      if (rh >= 70) return { level: "caution", text: "Humid air today (around " + rh + "% relative humidity). Joint compound dries more slowly in damp air, so allow extra time between coats, keep air moving, or use a setting-type compound that cures chemically." + cold };
+      if (rh <= 35) return { level: "good", text: "Dry air today (around " + rh + "% relative humidity), so joint compound dries quickly between coats." + cold };
+      return { level: "good", text: "Moderate humidity today (around " + rh + "%), normal drying time for joint compound between coats." + cold };
     },
 
     // Exterior doors: sealants and caulk want dry weather and roughly 40F and up.
@@ -286,8 +288,9 @@
       var now = hs[0];
       var p = el("p", "lc-live lc-" + res.level);
       var lead = el("strong", null, "Today in " + CONFIG.weather.place + ": ");
+      
       p.appendChild(lead);
-      p.appendChild(document.createTextNode(now.f + "°F, " + (now.sf || "").toLowerCase() + ". " + res.text));
+      p.appendChild(document.createTextNode("now " + now.f + "°F, " + (now.sf || "").toLowerCase() + ". " + res.text));
       var src = el("p", "lc-src");
       src.appendChild(document.createTextNode("Live forecast from the "));
       var a = el("a", null, "National Weather Service");
